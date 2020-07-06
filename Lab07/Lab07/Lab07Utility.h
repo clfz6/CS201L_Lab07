@@ -5,5 +5,5 @@
 using namespace std;
 
 double GetTotal(vector<double> prices);
-double GetMean();
-double GetMedian();
+double GetMean(vector<double> prices);
+double GetMedian(vector<double> prices);

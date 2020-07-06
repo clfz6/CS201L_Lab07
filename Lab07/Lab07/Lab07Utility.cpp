@@ -14,7 +14,7 @@ double GetTotal(vector<double> prices)
 }
 double GetMean(vector<double> prices)
 {
-	double mean, total;
+	double mean, total = 0;
 	int size;
 	size = prices.size();
 	for (int i = 0; i < size; i++)
@@ -24,7 +24,9 @@ double GetMean(vector<double> prices)
 	mean = total / size;
 	return mean;
 }
-double GetMedian()
+double GetMedian(vector<double> prices)
 {
+	double median;
 
+	return median;
 }

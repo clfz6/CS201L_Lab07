@@ -1,5 +1,4 @@
 ﻿  Lab07Utility.cpp
   Source.cpp
   Generating Code...
-C:\c++\CS201L\CS201L_Lab07\Lab07\Lab07\Lab07Utility.cpp(30): error C4716: 'GetMedian': must return a value
-C:\c++\CS201L\CS201L_Lab07\Lab07\Lab07\Lab07Utility.cpp(22): error C4700: uninitialized local variable 'total' used
+C:\c++\CS201L\CS201L_Lab07\Lab07\Lab07\Lab07Utility.cpp(31): error C4700: uninitialized local variable 'median' used
