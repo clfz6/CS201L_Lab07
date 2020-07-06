@@ -26,7 +26,20 @@ double GetMean(vector<double> prices)
 }
 double GetMedian(vector<double> prices)
 {
-	double median;
+	double median = 0;
+	int temp, size;    
+	size = prices.size();
+
+	for (int i = 1; i < size; ++i) {
+		int j = i;
+		while (j > 0 && prices[j] < prices[j - 1]) {
+
+			temp = prices[j];
+			prices[j] = prices[j - 1];
+			prices[j - 1] = temp;
+			--j;
+		}
+	}
 
 	return median;
 }

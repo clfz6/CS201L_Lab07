@@ -1,0 +1,4 @@
+		Total	Median	Mean
+DVD	70.12	0	14.024
+TV	2830.77	0	943.59
+MUSIC	8.99	0	2.99667

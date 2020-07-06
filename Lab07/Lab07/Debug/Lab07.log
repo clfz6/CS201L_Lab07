@@ -1,4 +1,9 @@
 ﻿  Lab07Utility.cpp
+C:\c++\CS201L\CS201L_Lab07\Lab07\Lab07\Lab07Utility.cpp(37,19): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
   Source.cpp
   Generating Code...
-C:\c++\CS201L\CS201L_Lab07\Lab07\Lab07\Lab07Utility.cpp(31): error C4700: uninitialized local variable 'median' used
+  Lab07.vcxproj -> C:\c++\CS201L\CS201L_Lab07\Lab07\Debug\Lab07.exe
